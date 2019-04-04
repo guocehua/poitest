@@ -17,9 +17,6 @@ public class PoiUtill {
     private final static String xls = "xls";
     private final static String xlsx = "xlsx";
 
-    /**
-     * 读入excel文件，解析后返回
-     */
     public static List<String[]> readExcel(File file) throws IOException {
 
         checkFile(file);
